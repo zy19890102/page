@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿里云生态合作</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- Add your keywords and description here for SEO. -->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+
+
+    <!-- Uncomment this if you need apple touch icon. -->
+    <!--
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+    -->
+
+    <!-- Don't delete this. It's needed for development workflow. -->
+    <link rel="stylesheet" href="stylesheets/bundle.min.css">
+</head>
+
+<body>
+
+
+<div class="loading-overlay">
+    <img src="images/loading.svg">
+</div>
+
+<div class="swiper-container-v">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-v slide-1">
+            <div class="bg-image"></div>
+            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0.1s"></div>
+            <div class="item-logo animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.1s"></div>
+            <!--<p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">I'm a coder!</p>-->
+        </div>
+        <div class="swiper-slide swiper-slide-v slide-3">
+
+            <p class="title animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.3s">开启云生态之旅</p>
+
+            <canvas id="line1" width="0" height="0" style="position: absolute"></canvas>
+            <canvas id="line2" width="0" height="0" style="position: absolute"></canvas>
+            <canvas id="line3" width="0" height="0" style="position: absolute"></canvas>
+            <canvas id="line4" width="0" height="0" style="position: absolute"></canvas>
+            <canvas id="line5" width="0" height="0" style="position: absolute"></canvas>
+            <div class="des1">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody><tr class="first-item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="1.1s">
+                        <td>互联网能力</td>
+                    </tr>
+                    <tr class="item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="1.3s">
+                        <td>新零售</td>
+                    </tr>
+                    <tr class="item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="1.5s">
+                        <td>新金融</td>
+                    </tr>
+                    <tr class="item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="1.7s">
+                        <td>新物流</td>
+                    </tr>
+                    <tr class="item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="1.9s">
+                        <td>新技术</td>
+                    </tr>
+                    <tr class="item-left animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="2.1s">
+                        <td>制造</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="des2">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody><tr class="first-item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="1.1s">
+                        <td>行业方案</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="1.3s">
+                        <td>游戏/多媒体云</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="1.5s">
+                        <td>金融</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="1.7s">
+                        <td>政务/数据中国</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="1.9s">
+                        <td>医疗</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="2.1s">
+                        <td>物联网/O2O</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="des3">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody><tr class="first-item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.1s">
+                        <td>教育创新孵化</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.3s">
+                        <td>创新中心</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.5s">
+                        <td>人才生态</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.7s">
+                        <td>创客+</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="des4">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody><tr class="first-item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.1s">
+                        <td>区域服务</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.3s">
+                        <td>授权服务中心</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.5s">
+                        <td>云服务商</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.7s">
+                        <td>云分销商</td>
+                    </tr>y>
+                </table>
+            </div>
+            <div class="des5">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody><tr class="first-item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.1s">
+                        <td>云市场</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.3s">
+                        <td>基础软件</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.5s">
+                        <td>服务市场</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.7s">
+                        <td>网站建设</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="1.9s">
+                        <td>企业软件</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="2.1s">
+                        <td>云安全</td>
+                    </tr>
+                    <tr class="item-right animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="2.1s">
+                        <td>数据市场</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--<div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>-->
+
+        </div>
+        <div class="swiper-slide swiper-slide-v slide-4">
+            <p class="company-title animated" data-ani-name="bounceIn" data-ani-duration="1s" data-ani-delay="0s">我们的合作伙伴</p>
+            <!--<div class="company-image-box">-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/0.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/1.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.2s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/2.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.4s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/3.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.6s"></div>-->
+                <!--&lt;!&ndash;<img class="company-image" src="images/company/4.png">&ndash;&gt;-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/5.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.8s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/6.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.0s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/7.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.2s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/8.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.4s"></div>-->
+                <!--<div class="company-image animated" style="background-image: url('images/company/9.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.6s"></div>-->
+            <!--</div>-->
+            <div class="company-image-box">
+                <div class="company-image animated" style="background-image: url('images/company/0.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0s"></div>
+                <div class="company-image animated" style="background-image: url('images/company/1.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.2s"></div>
+            </div>
+            <div class="company-image-box">
+                <div class="company-image animated" style="background-image: url('images/company/2.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.4s"></div>
+                <div class="company-image animated" style="background-image: url('images/company/3.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.6s"></div>
+            </div>
+            <div class="company-image-box">
+                <div class="company-image animated" style="background-image: url('images/company/5.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.8s"></div>
+                <div class="company-image animated" style="background-image: url('images/company/6.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.0s"></div>
+            </div>
+            <div class="company-image-box">
+                <div class="company-image animated" style="background-image: url('images/company/7.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.2s"></div>
+                <div class="company-image animated" style="background-image: url('images/company/8.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.4s"></div>
+            </div>
+            <div class="company-image-box">
+                <div class="company-image animated" style="background-image: url('images/company/9.png')" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.6s"></div>
+            </div>
+            <div class="more-box">
+                <div class="more  animated" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="1.8s"></div>
+                <div class="more  animated" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="2.0s"></div>
+                <div class="more  animated" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="2.2s"></div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-slide-v slide-2">
+            <!--<div style="width: 100% ;height: 1rem"></div>-->
+            <p class="title animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.3s">授权服务中心</p>
+            <div class="top">
+                <table class="items" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <!--<tr class="desc clearfix  first animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.1s">-->
+                        <!--<td>全国50+合作伙伴</td>-->
+                    <!--</tr>-->
+                    <tr class="desc clearfix  first animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.3s">
+                        <td>阿里云官方授权</td>
+                    </tr>
+                    <tr class="desc clearfix animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.5s">
+                        <td>本地化</td>
+                    </tr>
+                    <tr class="desc clearfix animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.7s">
+                        <td>专业</td>
+                    </tr>
+                    <tr class="desc clearfix animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.9s">
+                        <td>高效</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="map"><img src="images/map.png" class="mappic">
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.5rem; top: 5.5rem;">
+                    <div id="dot1" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.8rem; top: 9.5rem;">
+                    <div id="dot2" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.1rem; top: 12.5rem;">
+                    <div id="dot3" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.7rem; top: 12.8rem;">
+                    <div id="dot4" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.8rem; top: 10.2rem;">
+                    <div  id="dot5" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.5rem; top: 8.8rem;">
+                    <div  id="dot6" class="point-dot"></div>
+                </div>
+                <div class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.3rem; top: 9.5rem;">
+                    <div  id="dot7" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 7.5rem; top: 9rem;">
+                    <div id="dot8" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 6.8rem; top: 8.7rem;">
+                    <div id="dot9" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.3rem; top: 7.5rem;">
+                    <div id="dot10" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 10rem; top: 7.8rem;">
+                    <div id="dot11" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 13.5rem; top: 9.3rem;">
+                    <div id="dot12" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 12.5rem; top: 11rem;">
+                    <div  id="dot13" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.5rem; top: 11.5rem;">
+                    <div id="dot14" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 15rem; top: 4rem;">
+                    <div id="dot15" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.8rem; top: 5.9rem;">
+                    <div id="dot16" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 14.7rem; top: 6.8rem;">
+                    <div id="dot17" class="point-dot"></div>
+                </div>
+                <div  class="local animated" data-ani-name="zoomIn" data-ani-duration="0.2s" data-ani-delay="0" style="position: absolute; left: 3.5rem; top: 3.5rem;">
+                    <div id="dot18" class="point-dot"></div>
+                </div>
+            </div>
+
+
+            <div class="swiper-container-h">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">北京</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/beijing1.png">
+                            <img class="image" src="images/center/beijing2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">上海</p>
+                        <div class="image-box">
+                            <!--<img class="image" src="images/center/shanghai1.png">-->
+                            <img class="image" src="images/center/shanghai2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">广州</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/guangzhou1.png" style="width: 30%;height: 50%">
+                            <img class="image" src="images/center/guangzhou3.png" style="width: 30%;height: 50%">
+                            <img class="image" src="images/center/guangzhou2.png" style="width: 60%;height: 30%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">深圳</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/shenzhen1.png" style="width: 100px">
+                            <img class="image" src="images/center/shenzhen2.png" style="width: 200px">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">杭州</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/hangzhou1.png">
+                            <img class="image" src="images/center/hangzhou2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">南京</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/nanjing1.png">
+                            <img class="image" src="images/center/nanjing2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">武汉</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/wuhan.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">重庆</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/chongqing.png" style="width: 200px">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">成都</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/chengdu1.png">
+                            <img class="image" src="images/center/chengdu2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">郑州</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/zhengzhou1.png">
+                            <img class="image" src="images/center/zhengzhou2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">西安</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/xian.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">合肥</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/hefei.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">长沙</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/changsha.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">福州</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/fuzhou.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">长春</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/changchun.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">大连</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/dalian.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">青岛</p>
+                        <div class="image-box">
+                            <img class="image" src="images/center/qingdao.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-h">
+                        <p class="city-title">乌鲁木齐</p>
+                        <p style="font-size: 15px;padding: 20px;text-align: center;color: white">新疆智慧城市工程技术研究中心(有限公司)</p>
+                        <!--<div class="image-box">-->
+                            <!--<img class="image" src="images/center/beijing1.png">-->
+                            <!--<img class="image" src="images/center/beijing2.png">-->
+                        <!--</div>-->
+                    </div>
+                </div>
+                <!--<div class="swiper-button-prev swiper-button-white"></div>-->
+                <!--<div class="swiper-button-next swiper-button-white"></div>-->
+            </div>
+
+
+            <!--<div class="citys">-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0s" style="position: absolute; left: 0; top: 0;">北京</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.1s" style="position: absolute; left: 0; top: 25%;">上海</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.2s" style="position: absolute; left: 0; top: 50%;">广州</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.3s" style="position: absolute; left: 0; top: 75%;">深圳</p>-->
+
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.4s" style="position: absolute; left: 20%; top: 0;">杭州</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.5s" style="position: absolute; left: 20%; top: 25%;">南京</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.6s" style="position: absolute; left: 20%; top: 50%;">武汉</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.7s" style="position: absolute; left: 20%; top: 75%;">重庆</p>-->
+
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.8s" style="position: absolute; left: 40%; top: 0;">成都</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="0.9s" style="position: absolute; left: 40%; top: 25%;">郑州</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.0s" style="position: absolute; left: 40%; top: 50%;">西安</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.1s" style="position: absolute; left: 40%; top: 75%;">合肥</p>-->
+
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.2s" style="position: absolute; left: 60%; top: 0;">长沙</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.3s" style="position: absolute; left: 60%; top: 25%;">福州</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.4s" style="position: absolute; left: 60%; top: 50%;">长春</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.5s" style="position: absolute; left: 60%; top: 75%;">大连</p>-->
+
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.6s" style="position: absolute; left: 80%; top: 0;">青岛</p>-->
+                <!--<p class="city-name animated" data-ani-name="rotateInDownLeft" data-ani-duration="0.2s" data-ani-delay="1.7s" style="position: absolute; left: 80%; top: 25%;">乌鲁木齐</p>-->
+            <!--</div>-->
+
+
+            <!--<div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s"></div>-->
+            <!--<p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">全国26家合作伙伴阿里云官方授权本地化专业高效</p>-->
+        </div>
+        <div class="swiper-slide swiper-slide-v slide-5">
+            <p class="top-title animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s">加入我们</p>
+            <p class="top-arrow animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="0s">↑</p>
+            <p class="top-share animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="0s">点击分享</p>
+            <img src="images/code.png" class="item-code animated" data-ani-name="fadeInLeftBig" data-ani-duration="1s" data-ani-delay="0s">
+        </div>
+    </div>
+</div>
+
+<button class="up-arrow">
+    <i class="icon-angle-double-up"></i>
+</button>
+
+<!--<button class="btn-music">-->
+    <!--<i class="icon-note"></i>-->
+<!--</button>-->
+
+<!--<audio loop>-->
+    <!--<source src="audios/background.mp3" type="audio/mpeg">-->
+<!--</audio>-->
+
+<!-- Don't delete this. It's needed for development workflow. -->
+<script src="javascripts/bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
